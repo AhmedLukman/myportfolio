@@ -16,11 +16,13 @@ body, html {
   background-size: cover;
 }
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
   .my-img{
     height: 50%;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
@@ -30,85 +32,208 @@ body, html {
 @media only screen and (min-width: 400px) {
   .my-img{
     height: 50%;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 95%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 } 
 
 @media only screen and (min-width: 425px) {
   .my-img{
     height: 50%;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 95%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 } 
 
 @media only screen and (min-width: 450px) {
   .my-img{
     height: 50%;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 95%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 } 
 
  @media only screen and (min-width: 500px) {
   .my-img{
     height: 50%;
-    position: absolute;
     top: 30%;
+    position: relative;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 95%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .my-img{
     height: 60%;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 95%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .my-img{
     height: 70%;
-    position: absolute;
+    position: relative;
     top: 35%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 95%;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .my-img{
     height: 70%;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    float: left;
+    top: 35%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 85%;
+    position: relative;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .my-img{
     height: 80%;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 40%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 85%;
+    position: relative;
+    top: 42%;
+    left: 52%;
+    transform: translate(-50%, -50%);    
+  }  
 }
 
+
+nav div ul li a{
+  color: white;
+  font-size: large;
+  margin-top: 15px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: lightgreen;
+}
+
+/* Set the border color */
+          
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
