@@ -19,8 +19,8 @@ body, html {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .my-img{
-    height: 60%;
-    margin-left: 12%;
+    height: 45%;
+    margin-left: 2%;
   }
 }
 
