@@ -17,18 +17,32 @@ body, html {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .my-img{
-    height: 45%;
-    margin-left: 2%;
+    height: 40%;
+    margin-left: 4%;
   }
 }
+
+@media only screen and (min-width: 400px) {
+  .my-img{
+    height: 45%;
+    margin-left: 4%;
+  }
+} 
+
+ @media only screen and (min-width: 500px) {
+  .my-img{
+    height: 45%;
+    margin-left: 10%;
+  }
+} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .my-img{
-    height: 70%;
-    margin-left: 12%;
+    height: 60%;
+    margin-left: 7%;
   }
 }
 
@@ -55,3 +69,6 @@ body, html {
     margin-left: 30%;
   }
 }
+
+
+
