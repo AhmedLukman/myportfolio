@@ -9,7 +9,7 @@ body, html {
 }
 
 .image-screen{
-  background-image: url(/dark-black-technology-background-vector.png);
+  background-image: url(dark-black-technology-background-vector.png);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +27,18 @@ body, html {
     left: 46%;
     transform: translate(-50%, -50%);
   }
+  .intro-text{
+    letter-spacing: 3px;
+    color: white;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+  }  
 }
 
 @media only screen and (min-width: 400px) {
@@ -43,9 +55,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 95%;
+    width: 80%;
     position: relative;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
@@ -65,9 +77,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 95%;
+    width: 80%;
     position: relative;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
@@ -87,9 +99,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 95%;
+    width: 80%;
     position: relative;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
@@ -109,9 +121,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 95%;
+    width: 80%;
     position: relative;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
@@ -132,9 +144,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 95%;
+    width: 80%;
     position: relative;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
@@ -155,9 +167,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 95%;
+    width: 80%;
     position: relative;
-    top: 5%;
+    top: 2%;
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
@@ -179,9 +191,9 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 99%;
+    width: 90%;
     position: relative;
-    top: 38%;
+    top: 35%;
     left: 52%;
     transform: translate(-50%, -50%);    
   }  
@@ -202,10 +214,10 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 65%;
+    width: 77%;
     position: relative;
     top: 42%;
-    left: 52%;
+    left: 56%;
     transform: translate(-50%, -50%);    
   }  
 }
