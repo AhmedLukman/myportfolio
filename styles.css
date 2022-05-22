@@ -16,7 +16,6 @@ body, html {
   background-size: cover;
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
   .my-img{
     height: 50%;
@@ -31,10 +30,17 @@ body, html {
   }
 } 
 
+@media only screen and (min-width: 425px) {
+  .my-img{
+    height: 50%;
+    margin-left: 0%;
+  }
+} 
+
 @media only screen and (min-width: 450px) {
   .my-img{
     height: 50%;
-    margin-left: 7%;
+    margin-left: 4%;
   }
 } 
 
