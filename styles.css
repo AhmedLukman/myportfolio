@@ -16,38 +16,54 @@ body, html {
   background-size: cover;
 }
 
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
   .my-img{
     height: 50%;
-    margin-left: -5%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
 @media only screen and (min-width: 400px) {
   .my-img{
     height: 50%;
-    margin-left: -4%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 } 
 
 @media only screen and (min-width: 425px) {
   .my-img{
     height: 50%;
-    margin-left: 0%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 } 
 
 @media only screen and (min-width: 450px) {
   .my-img{
     height: 50%;
-    margin-left: 4%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 } 
 
  @media only screen and (min-width: 500px) {
   .my-img{
     height: 50%;
-    margin-left: 7%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 } 
 
@@ -55,7 +71,10 @@ body, html {
 @media only screen and (min-width: 600px) {
   .my-img{
     height: 60%;
-    margin-left: 7%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -63,7 +82,10 @@ body, html {
 @media only screen and (min-width: 768px) {
   .my-img{
     height: 70%;
-    margin-left: 20%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -71,7 +93,10 @@ body, html {
 @media only screen and (min-width: 992px) {
   .my-img{
     height: 70%;
-    margin-left: 25%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -79,7 +104,10 @@ body, html {
 @media only screen and (min-width: 1200px) {
   .my-img{
     height: 80%;
-    margin-left: 30%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
