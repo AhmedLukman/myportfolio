@@ -9,7 +9,7 @@ body, html {
 }
 
 .image-screen{
-  background-image: url(dark-black-technology-background-vector.png);
+  background-image: url(/dark-black-technology-background-vector.png);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,6 +39,11 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
+  .shrink-img{
+    width: 40%;
+    margin-left: 6%;
+  }
+  
 }
 
 @media only screen and (min-width: 400px) {
@@ -61,6 +66,11 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);    
   }  
+  .shrink-img{
+    width: 40%;
+    margin-left: 7%;
+  }
+
 } 
 
 @media only screen and (min-width: 425px) {
@@ -191,10 +201,10 @@ body, html {
     font-size: x-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    width: 90%;
+    width: 80%;
     position: relative;
     top: 35%;
-    left: 52%;
+    left: 60%;
     transform: translate(-50%, -50%);    
   }  
 }
@@ -220,21 +230,28 @@ body, html {
     left: 56%;
     transform: translate(-50%, -50%);    
   }  
+  .group{
+    padding-left: 18%;
+  }
+  .shrink-img{
+    width: auto;
+  }
+
 }
+.bootstrap{
+  float: left;
+}
+
 
 
 nav div ul li a{
   color: white;
   font-size: large;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .nav-item{
   padding: 0 18px;
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: lightgreen;
 }
 
 /* Set the border color */
@@ -247,5 +264,18 @@ nav div ul li a{
 .custom-toggler .navbar-toggler-icon {
   background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.skill-heading{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.skills{
+  padding: 8%;
+
 }
 
