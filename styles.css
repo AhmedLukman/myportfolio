@@ -1,14 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
-.image-screen{
+.image-screen {
   background-image: url(dark-black-technology-background-vector.png);
   height: 100%;
   background-position: center;
@@ -16,178 +17,170 @@ body, html {
   background-size: cover;
 }
 
-
-
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
-  .my-img{
+@media only screen and (max-width: 399px) {
+  .my-img {
     height: 50%;
     position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
-  .shrink-img{
-    width: 40%;
-    margin-left: 6%;
+    transform: translate(-50%, -50%);
   }
-  
 }
 
 @media only screen and (min-width: 400px) {
-  .my-img{
+  .my-img {
     height: 50%;
     position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
-  .shrink-img{
+    transform: translate(-50%, -50%);
+  }
+  .shrink-img {
     width: 40%;
     margin-left: 7%;
   }
-
-} 
+}
 
 @media only screen and (min-width: 425px) {
-  .my-img{
+  .my-img {
     height: 50%;
     position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
-} 
+    transform: translate(-50%, -50%);
+  }
+}
 
 @media only screen and (min-width: 450px) {
-  .my-img{
+  .my-img {
     height: 50%;
     position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
-} 
+    transform: translate(-50%, -50%);
+  }
+}
 
- @media only screen and (min-width: 500px) {
-  .my-img{
+@media only screen and (min-width: 500px) {
+  .my-img {
     height: 50%;
     top: 30%;
     position: relative;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
-} 
+    transform: translate(-50%, -50%);
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .my-img{
+  .my-img {
     height: 60%;
     position: relative;
     top: 30%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 8%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .my-img{
+  .my-img {
     height: 70%;
     position: relative;
     top: 35%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 2%;
     left: 50%;
-    transform: translate(-50%, -50%);    
-  }  
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .my-img{
+  .my-img {
     height: 70%;
     position: relative;
     float: left;
@@ -195,87 +188,82 @@ body, html {
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 80%;
     position: relative;
     top: 35%;
     left: 60%;
-    transform: translate(-50%, -50%);    
-  }  
+    transform: translate(-50%, -50%);
+  }
+  .shrink-img {
+    width: 25%;
+    margin-right: -2%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .my-img{
+  .my-img {
     height: 80%;
     position: relative;
     top: 40%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
-  .intro-text{
+  .intro-text {
     letter-spacing: 3px;
     color: white;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
     width: 77%;
     position: relative;
     top: 42%;
     left: 56%;
-    transform: translate(-50%, -50%);    
-  }  
-  .group{
-    padding-left: 18%;
+    transform: translate(-50%, -50%);
   }
-  .shrink-img{
-    width: auto;
+  
+  .shrink-img {
+    width: 30%;
+    margin-left: 3.5%;
+    padding: 2%;
   }
-
 }
-.bootstrap{
+
+.bootstrap {
   float: left;
 }
 
-
-
-nav div ul li a{
+nav div ul li a {
   color: white;
   font-size: large;
   margin-top: 5px;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
 /* Set the border color */
-          
+
 .custom-toggler.navbar-toggler {
   border-color: white;
 }
 /* Setting the stroke to green using rgb values (0, 128, 0) */
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.skill-heading{
+.skill-heading {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   margin-top: 3%;
 }
-
-.skills{
-  padding: 8%;
-
-}
-
